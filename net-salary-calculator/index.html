@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Net-Salary-Calculator</title>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <div id="box">
+      <h1 id="net">NET SALARY CALCULATOR</h1>
+      <div id="data">
+        <label for="basic">Basic Salary :</label>
+        <input type="number" id="basic" />
+        <br />
+        <br />
+        <label for="benefits">Benefits :</label>
+        <input type="number" id="benefits" />
+        <br />
+        <br />
+        <br />
+        <button onclick="getValue()">Calculate</button>
+      </div>
+      <div id="parent">
+      <div id="child">
+        <h2 id="list">Gross Pay :</h2>
+        <h2 id="list">Paye :</h2>
+        <h2 id="list">NSSF :</h2>
+        <h2 id="list">NHIF :</h2>
+        <h2>_________________ </h2>
+        <h1 id="list">Net Salary :</h1>
+      </div>
+      <div id ='child'>
+        <h2 id="gross" class="x"></h2>
+        <h2 id="paye" class="x"></h2>
+        <h2 id="nssf" class="x"></h2>
+        <h2 id="nhif" class="x"></h2>
+        <h2 id="line" class="x"></h2>
+        <h1 id="net salary" class="x"></h1>
+      </div>
+    </div>
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
